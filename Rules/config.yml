@@ -1,0 +1,25 @@
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+allow-lan: true
+bind-address: "*"
+mode: Rule
+log-level: info
+ipv6: true
+external-controller: :9090
+dns:
+  enable: true
+  ipv6: true
+  listen: 127.0.0.1:53
+  enhanced-mode: fake-ip
+  default-nameserver:
+    - 114.114.114.114
+  nameserver:
+    - https://dns.zixu.site/dns-query
+  fallback:
+    - https://dns.zixu.site/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
