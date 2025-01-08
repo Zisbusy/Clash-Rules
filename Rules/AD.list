@@ -1,1 +1,6 @@
 # 过滤列表
+# Google 广告
+DOMAIN-SUFFIX,pagead2.googlesyndication.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,pagead2.googleadservices.com
+DOMAIN-SUFFIX,afs.googlesyndication.com
