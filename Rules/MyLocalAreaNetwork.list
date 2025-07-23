@@ -40,3 +40,4 @@ DOMAIN-SUFFIX,zte.home
 
 # 自定义域名
 DOMAIN-SUFFIX,knet.cn
+DOMAIN-SUFFIX,community.home-assistant.io
