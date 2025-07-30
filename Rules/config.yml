@@ -37,3 +37,4 @@ dns:
       - '+.youtube.com'
   fake-ip-filter:
     - '*.lan'
+    - '*.qq.com'
